@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 900px;
+    margin: 0px auto;
+}
+.head .head-title{
+    background-color: #1099da7a;
+    height: 120px;
+}
+.head-title h1{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 40px;
+    color: #0091d4;
+}
+.head-title h2{
+    margin-top: -30px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: rgb(20, 20, 230);
+}
+.head .head-nav{
+    width: 900px;
+    background-color: #77bc0e;
+    margin-top: -16px;
+}
+.head-nav ul{
+    display: flex;
+    margin-left: -30px;
+}
+.head-nav ul li{
+    line-height: 25px;
+    list-style-type: none;
+    padding: 10px 15px;
+    border-right: 1px solid #fff;
+}
+.head-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.head-nav .search{
+    width: 325.3px;
+    background-color: orange;
+    border-left: 1px solid #fff;
+    margin-left: 50px;
+}
+.search input{
+    margin: 10px 40px 10px;
+    width: 60%;
+    padding: 5px 5px;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+    border: none;
+}
+.search button{
+    margin-left: -45px;
+    padding: 5px 5px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+}
+
+.menu{
+    width: 900px;
+}
+.menu .menu-left{
+    float: left;
+    width: 575px;
+}
+.menu-left .content{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.menu-left img{
+    width: 100%;
+}
+.menu-left ol{
+    font-weight: bold;
+    color: #0425b9;
+}
+.menu-left p{
+    font-weight: normal;
+    color: black;
+}
+.menu .menu-right{
+    float: left;
+    width: 325px;
+
+    box-shadow: -5px 0px 5px -5px black;
+}
+.menu-right p{
+    padding-left: 20px;
+}
+.list{
+    width: 70%;
+    line-height: 30px;
+    background-color: #77bc0e;
+    margin-left: 10px;
+    border-radius: 8px 0px 8px 0px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu-right ul li{
+    list-style-type: none;
+}
+.menu-right ul li a{
+    text-decoration: none;
+}
+.list .fa.fa-rss-square{
+    background-color: orange;
+    color: #fff;
+}
